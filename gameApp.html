@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<style>
+canvas {
+    border: 3px solid #a74444;
+    background-color: white;
+}
+.image-area{
+  float: right;
+
+}
+.text-area{
+  color: red;
+}
+
+</style>
+
+
+</head>
+<body onload="startGame()">
+<div class="image-area">
+<img src="" class="image"> 
+
+</div>
+<body id="buttonsArea"></div>
+<br>
+<br>
+<div id="searches"></div>
+    
+
+<br>
+<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
+<h3 class="text-area">Use the float button to stay in the air</h3>
+<h1>Can you survive?</h1>
+
+
+
+<form id ="search-form">
+    <label for="search-input">Add in your name!</label>
+    <input type="text" id="search-input"><br> 
+
+
+
+<script src="functions.js"></script>
+</body>
+</html>
